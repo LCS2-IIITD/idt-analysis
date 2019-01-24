@@ -1,0 +1,1000 @@
+#index15
+#*On Extremal Set Partitions in Cartesian Product Spaces
+#@Rudolf Ahlswede[1701837],Ning Cai[2195294],
+#!IntroductionConsider (V; E) , where V is a finite set and E is a system of subsets of V . For thecartesian products Vn=Q n1 V and En=Q n1 E let ?(n) denote the minimal size of apartition of Vninto sets which are elements of En, if a partition exists at all, otherwise?(n) is not defined. This is obviously exactly the case if it is so for n = 1 .Whereas the packing number p(n) , that is the maximal size of a system of disjoint setsfrom En, and the covering...
+#n2
+#jCombinatorics, Probability & Computing - CPC[87], vol. 2, pp. 211-220
+#y1993
+#falgorithms_and_theory
+#KCartesian Product[4912]
+#CC...In [1] we introduced and studied for product hypergraphs Hn = Q n i=1 Hi , where Hi = (Vi, Ei) , the minimal size ¼(Hn) of a partition of Vn = Q n i=1 Vi into sets that are elements of En = Q n i=1 Ei ......In [1] we introduced the partition number ¼(H) as the minimal size of a partition of V into sets that are members of E , if a partition exists, and as ∞ otherwise......When Gi = (Vi, Ei) (i = 1, 2, . . . , n) are arbitrary finite graphs with all loops included, then we have obviously for the partition number ¼(Gi) = |Vi| − º(Gi) , where º(Gi) is the matching number of Gi . A discovery of [1] is that for the hypergraph product Hn = G1 × ¢ ¢ ¢ × G n......(Theorem 2’ of [1] is covered by the case d = 2 )......In Example 1 of [1] we have |Vi| = 7 , n = 2 , d = 4 , r = 3 , q = 1 , and thus d < r2 in violation of (*)......In [4] we have developed a more general machinery to study partitions of products of hypergraphs......However, the best concrete results there are covered also by [1] and the present result...
+#CARudolf Ahlswede[1701837]
+#CPOn Partitioning and Packing Products with Rectangles[322494]
+#%*Las Vegas is better than determinism in VLSI and distributed computing (Extended Abstract)[575893]
+#%n59
+#%@Kurt Mehlhorn[2136714],Erik Meineche Schmidt[821555],
+#%cACM Symposium on Theory of Computing - STOC[392], pp. 330-337
+#%y1982
+#%*Some complexity questions related to distributive computing(Preliminary Report)[575511]
+#%n208
+#%@Andrew Chi-Chih Yao[1089451],
+#%cACM Symposium on Theory of Computing - STOC[392], pp. 209-213
+#%y1979
+#%*A general 4-words inequality with consequences for 2-way communication complexity[2572455]
+#%n16
+#%@R. Ahlswede[1701837],N. Cai[3672074],Z. Zhang[47345088],
+#%jAdvances in Applied Mathematics - ADVAN APPL MATH[045], vol. 10, no. 1, pp. 75-94
+#%y1989
+#%*The zero error capacity of a noisy channel[1330121]
+#%n354
+#%@C. Shannon[1827238],
+#%jIEEE Transactions on Information Theory - TIT[33], vol. 2, no. 3, pp. 8-19
+#%y1956
+#%*On the Shannon capacity of a graph[1376378]
+#%n426
+#%@L. Lovasz[615494],
+#%jIEEE Transactions on Information Theory - TIT[33], vol. 25, no. 1, pp. 1-7
+#%y1979
+#$*Information and Control: Matching Channels[1447315]
+#$n3
+#$@Rudolf Ahlswede[1701837],Ning Cai[2195294],
+#$jIEEE Transactions on Information Theory - TIT[33], vol. 44, no. 2, pp. 542-563
+#$y1998
+#$*On Partitioning and Packing Products with Rectangles[322494]
+#$n1
+#$@Rudolf Ahlswede[1701837],Ning Cai[2195294],
+#$jCombinatorics, Probability & Computing - CPC[87], vol. 3, no. 04, pp. 429-434
+#$y1994
+
+#index19
+#*The Sandwich Theorem
+#@Donald E. Knuth[167694],
+#!This report contains expository notes about a func- tion #(G) that is popularly known as the Lovasz number of a graph G. There are many ways to deflne#(G), and the surpris- ing variety of difierent characterizations indicates in itself that #(G) should be interesting. But the most interesting property of#(G) is probably the fact that it can be computed e-ciently, although it lies \sandwiched" between other classic graph num- bers whose computation is NP-hard. I have tried to make these notes self-contained so that they might serve as an elementary introduction to the growing literature on Lovasz's fascinating function.
+#n103
+#jThe Electronic Journal of Combinatorics - Electr. J. Comb.[25], vol. 1
+#y1994
+#falgorithms_and_theory
+#RThe ellipsoid method and its consequences in combinatorial optimization[808021]
+#RGeometric algorithms and combinatorial optimization[2061175]
+#ROn the Shannon capacity of a graph[1376378]
+#RGuaranteeing fair service to persistent dependent tasks[90989]
+#RInterior Point Methods in Semidefinite Programming with Applications to Combinatorial Optimization[228762]
+#CC...This approach is inspired by the study [4] on multiplicativity of the θ � (G) bound [16,17,21 ]f orω(G); see also [15]......In Table 5 we apply our algorithm to someofthegraphsfromtheDIMACScollection[11].Againweknowthatthereexists an optimal solution of rank one, so we experiment with the following starting points...
+#CAImmanuel M. Bomze[86744]
+#CPQuadratic factorization heuristics for copositive programming[48409741]
+#CC...Using the results developed, we can show that there is a simple semidefinite program (the Lov´asz ϑ-function [Lov79, Knu94]) that achieves the same integrality gap for all k, not just for constant k as in Theorem 1.4......proof follows directly from known results about the ϑfunction [GLS88, Knu94], but it seems that it is the first use of these results to give a nontrivial bound on the integrality gap of the ϑ-function......each clique C in G. The clique linear program is known as QSTAB(G) in the literature [GLS88, Knu94], and Padberg has shown that the clique constraints define facets for the hypergraph matching problem [Pad73]......where c ranges over all possible unit vectors, and {ui} ranges over all possible orthonormal representations 3 (ONR) of G. It is known that TH(G) ⊆ QSTAB(G) [GLS88, Knu94]; that is, the ϑ-function is a stronger relaxation than the clique linear program......It is also known that the ϑ-function is equivalent to the following semidefinite program, which is called the “third” face of the ϑ-function in [GLS88, LS91, Knu94]...
+#CAYuk Hei Chan[10249010]
+#CPOn Linear and Semidefinite Programming Relaxations for Hypergraph Matc...[13666195]
+#CC...While for the direct product both graph parameters θ and ω are multiplicative [11], this does not seem to hold in general for the θ � bound...
+#CAImmanuel M. Bomze[86744]
+#CPCopositivity cuts for improving SDP bounds on the clique number[15212658]
+#CC...By taking K = P we see that Theorem 18 generalizes the well-known equality for vertex transitive graphs ϑ(G)ϑ( ¯ G) = n ,s ee [18]...
+#CAIgor Dukanovic[3593353]
+#CPCopositive programming motivated bounds on the stability and the chrom...[6082196]
+#CC...The idea has been inspired by Knuth 9 who proved that the Lovász number is an additive homomorphism for the cosum and a multiplicative homomorphism for the direct product and the direct coproduct...
+#CAI. M. Bomze[86744]
+#CPGap, cosum and product properties of the θ′ bound on the clique number[16307033]
+#%*Interior Point Methods in Semidefinite Programming with Applications to Combinatorial Optimization[228762]
+#%n444
+#%@Farid Alizadeh[1308108],
+#%!We study the semidefinite programming problem (SDP), i.e the problem of optimization of a linear functionof a symmetric matrix subject to linear equality constraints and the additional condition that the matrixbe positive semidefinite. First we review the classical cone duality as specialized to SDP. Next we presentan interior point algorithm which converges to the optimal solution in polynomial time. ...
+#%jSiam Journal on Optimization - SIAM J OPTIMIZATION[7384]
+#%y1993
+#%*Large-Scale Optimization of Eigenvalues[238048]
+#%n85
+#%@Michael L. Overton[724202],
+#%!Optimization problems involving eigenvalues arise in many applications.Let x be a vector of real parameters and let A(x) be a continuouslydifferentiable symmetric matrix function of x. We consider a particularproblem which occurs frequently: the minimization of the maximumeigenvalue of A(x), subject to linear constraints and bounds on x. Theeigenvalues of A(x) are not differentiable at points ...
+#%y1991
+#%*An algorithmic theory of numbers[1331439]
+#%n52
+#%@L. Lovasz[615494],
+#%y1986
+#%*Unitary Triangularization of a Nonsymmetric Matrix[787150]
+#%n97
+#%@Alston S. Householder[56420274],
+#%!A method for the inversion of a nonsymmetric matrix, due to J. W. Givens, has been in use at Oak Ridge National Laboratory and has proved to be highly stable numerically but to require a rather large number of arithmetic operations, in- cluding a total of n(n -- 1)/2 square roots. Strictly, the method achieves the triangularization of the ...
+#%jJournal of The ACM - JACM[89], vol. 5, no. 4, pp. 339-342
+#%y1958
+#%*Proof verification and the intractability of approximation problems[1309745]
+#%n237
+#%@S. Arora[206371],C. Lund[826384],R. Motwani[843546],M. Sudan[832733],M. Szegedy[1830948],
+#%cIEEE Symposium on Foundations of Computer Science - FOCS[706]
+#%y1992
+#%*The ellipsoid method and its consequences in combinatorial optimization[808021]
+#%n545
+#%@Martin Grötschel[1158542],László Lovász[615494],Alexander Schrijver[852265],
+#%!L. G. Khachiyan recently published a polynomial algorithm to check feasibility of a system of linear inequalities. The method is an adaptation of an algorithm proposed by Shor for non-linear optimization problems. In this paper we show that the method also yields interesting results in combinatorial optimization. Thus it yields polynomial algorithms for vertex packing in perfect graphs; for ...
+#%jCombinatorica[286], vol. 1, no. 2, pp. 169-197
+#%y1981
+#%*A sublinear-time randomized parallel algorithm for the maximum clique problem in perfect graphs[402901]
+#%n3
+#%@Farid Alizadeht[40421639],
+#%!We will show that Lovasz number of graphs may be computedusing interior-point methods. This technique willrequire O(pjV j) iterations, each consisting of matrixoperations which have polylog parallel time complexity.In case of perfect graphs Lovasz number equals the sizeof maximum clique in the graph and thus may be obtainedin sublinear parallel time. By using the isolatinglemma, we get ...
+#%cACM-SIAM Symposium on Discrete Algorithms - SODA[378], pp. 188-194
+#%y1991
+#%*The zero error capacity of a noisy channel[1330121]
+#%n354
+#%@C. Shannon[1827238],
+#%!The zero error capacityC_oof a noisy channel is defined as the least upper bound of rates at which it is possible to transmit information with zero probability of error. Various properties ofC_oare studied; upper and lower bounds and methods of evaluation ofC_oare given. Inequalities are obtained for theC_orelating to the "sum" and "product" of two given ...
+#%jIEEE Transactions on Information Theory - TIT[433], vol. 2, no. 3, pp. 8-19
+#%y1956
+#%*On the facial structure of set packing polyhedra[1265004]
+#%n248
+#%@Manfred W. Padberg[55400],
+#%!In this paper we address ourselves to identifying facets of the set packing polyhedron, i.e., of the convex hull of integer solutions to the set covering problem with equality constraints and/or constraints of the form “?”. This is done by using the equivalent node-packing problem derived from the intersection graph associated with the problem under consideration. ...
+#%jMathematical Programming[903], vol. 5, no. 1, pp. 199-215
+#%y1973
+#%*Geometric algorithms and combinatorial optimization[2061175]
+#%n547
+#%@M. Grotschel[1158542],L. Lovasz[615494],A. Schrijver[852265],
+#%jCombinatorica[286]
+#%y1981
+#%*On the Shannon capacity of a graph[1376378]
+#%n426
+#%@L. Lovasz[615494],
+#%!It is proved that the Shannon zero-error capacity of the pentagon issqrt{5}. The method is then generalized to obtain upper bounds on the capacity of an arbitrary graph. A well-characterized, and in a sense easily computable, function is introduced which bounds the capacity from above and equals the capacity in a large number of cases. Several results ...
+#%jIEEE Transactions on Information Theory - TIT[433], vol. 25, no. 1, pp. 1-7
+#%y1979
+#%*Stable sets and polynomials[2499609]
+#%n44
+#%@L. Lovász[615494],
+#%jDiscrete Mathematics - DM[350], vol. 124, no. 1-3, pp. 137-153
+#%y1994
+#%*Cones of matrices and set-functions and $0$-$1$ optimization[1266461]
+#%n369
+#%@L. Lovász[615494],A. Schrijver[852265],
+#%!Abstract. It has been recognized recently that to represent a polyhedron as the projection of a higher dimensional, but simpler, polyhedron, is a powerful tool in polyhedral combinatorics. We develop a general method,to construct higher-dimensional polyhedra (or, in some cases, convex sets) whose projection approximates the convex hull of 0-1 valued solutions of a system of linear ...
+#%y1991
+#%*Relaxations of vertex packing[2152650]
+#%n17
+#%@Martin Grötschel[1158542],László Lovász[615494],Alexander Schrijver[852265],
+#%jJournal of Combinatorial Theory - JCT[98], vol. 40, no. 3, pp. 330-343
+#%y1986
+#%*The asymptotic behaviour of lovász’ ϑ function for random graphs[15216185]
+#%n6
+#%@Ferenc Juhász[3431943],
+#%!We show that for a random graph Lovsz’ ϑ function is of order √n.
+#%jCombinatorica[286], vol. 2, no. 2, pp. 153-155
+#%y1982
+#%*Cones of Matrices and Set-Functions and 0–1 Optimization[16457482]
+#%n278
+#%@L. Lovász[615494],A. Schrijver[852265],
+#%jSiam Journal on Optimization - SIAM J OPTIMIZATION[7384], vol. 1, no. 2
+#%y1991
+#%*Large-Scale Optimization of Eigenvalues[16457509]
+#%n78
+#%@Michael L. Overton[724202],
+#%jSiam Journal on Optimization - SIAM J OPTIMIZATION[7384], vol. 2, no. 1
+#%y1992
+#$*A robust algorithm for semidefinite programming[57589828]
+#$@Xuan Vinh Doan[3676412],Serge Kruk[636809],Henry Wolkowicz[50347115],
+#$jOptimization Methods & Software - OPTIM METHOD SOFTW[579], vol. 27, no. 4-5, pp. 667-693
+#$y2012
+#$*Quadratic factorization heuristics for copositive programming[48409741]
+#$n1
+#$@Immanuel M. Bomze[86744],Florian Jarre[244910],Franz Rendl[1755968],
+#$jMathematical Programming Computation[3840], vol. 3, no. 1, pp. 37-57
+#$y2011
+#$*All normalized anti-monotonic overlap graph measures are bounded[48191636]
+#$@Toon Calders[1533789],Jan Ramon[1117875],Dries Van Dyck[50358963],
+#$jData Mining and Knowledge Discovery - DATAMINE[52], vol. 23, no. 3, pp. 1-46
+#$y2011
+#$*P01-491 - Are platelet serotonin levels and platelet mao activity the biological markers for the progress of alzheimer’s disease?[49434780]
+#$@P. Presečki[27790441],D. Muck Šeler[27755390],N. Mimica[27912840],M. Mustapić[27412753],N. Pivac[4257776],M. Mihanović[26397775],G. Nedić[27050760],V. Folnegović-Šmalc[50143386],
+#$jEuropean Psychiatry - EUR PSYCHIAT[645], vol. 26, pp. 495-495
+#$y2011
+#$*A robust algorithm for semidefinite programming[57588589]
+#$@Xuan Vinh Doan[3676412],Serge Kruk[636809],Henry Wolkowicz[50347115],
+#$jOptimization Methods & Software - OPTIM METHOD SOFTW[579], vol. ahead-of-p, no. ahead-of-p, pp. 1-27
+#$y2011
+
+#index29
+#*An evolutionary autonomous agents approach to image feature extraction
+#@Jiming Liu[2250339],Yuan Yan Tang[866856],Y. C. Cao[3856180],
+#!This paper presents a new approach to image feature extraction which utilizesevolutionary autonomous agents. Image features are often mathematically defined in termsof the gray-level intensity at image pixels. The optimality of image feature extraction is tofind all the feature pixels from the image. In the proposed approach, the autonomous agents,being distributed computational entities, operate directly in the two-dimensional lattice ofa digital image, and exhibit a number of reactive...
+#n56
+#jIEEE Transactions on Evolutionary Computation - TEC[0], vol. 1, no. 2, pp. 141-158
+#y1997
+#D10.1109/4235.687881
+#falgorithms_and_theory
+#KAutonomous Agent[2673]
+#KDistributed Computing[10536]
+#KEvolutionary Computing[13128]
+#KImage Features[19098]
+#KIndexing Terms[19482]
+#RNumerical optimization of computer models[1281365]
+#RMulti-Agent Systems: An Introduction to Distributed Artificial Intelligence[3420560]
+#RAdaptive Image Segmentation With Distributed Behavior-Based Agents[362224]
+#RMulti-agent oriented constraint satisfaction[698146]
+#CC...Although the first realisations for computer vision related problems are also not new (Poli and Valli 1993; Liu et al. 1997), only more recently it has received considerable attention (Ramos and Almeida 2000; Owechko and Medasani 2005; Antón-Canalís et al. 2006; Mobahi et al. 2006; Broggi and Cattani 2006 ;M azouzi et al. 2007; Zhang et al. 2008)...
+#CAPedro Santana[621081]
+#CPSwarm cognition on off-road autonomous robots[39335482]
+#CC...Agent-based computation has been studied for several years in the field of distributed artificial intelligence [14], [15] and has been widely used in other branches of computer science [7], [8], [16]–[18]...
+#CAJing Liu[56882770]
+#CPA Multiagent Evolutionary Algorithm for Combinatorial Optimization Pro...[14376537]
+#CC...[1][2] proposed a behavior-based multi-agent system for image feature extraction and segmentation......In the algorithm, the fitness of an agent is defined by the matching degree between a sub-window the agent stands for and the face template [11] and normalized within [0, 1], that is, 0 f . 1...
+#CAYanjiang Wang[3413152]
+#CPA novel fast human face searching algorithm based on evolutionary agen...[50987295]
+#CC...[8-10] describe how the autonomous agents worked on the image with systemic perspective......And the basis of [7, 11] is Cellular Automata (CA) which idea is same to [8-10]......Here, we expound the main idea of [7, 8] which are compared with proposed method......In [8], the local stimulus for selecting and triggering the behaviors of an agent at a given pixel is computed from the sum of the pixels that belong to the neighboring region......In [8- 10], many autonomous agents were taken to detect homogeneous regions in brain images......B. Agents Behaviors [8-10] • Each agent has four behaviors that make it be an independent entity to work......Next, the method is compared with the intelligent methods [7, 8] and classical edge detector [1]......[8] based on the external behavior that is a statistic of the difference among the 3*3 neighborhood......[7] only aimed at the black-white image which operate on “0” and “1”, but we change it according to [8] that employ a thresholding process to got black-white image......The results show that [7] and [8] have ability to congregate agents or evolutional cell to the edge features, but there is no effective thresholding way to get the edges and they are a little blurry......The result of [8] is better than [7] for more edges emerging, but it is some noisy with the result......And the parameters of our method are same to Fig. 6. [8], [7] and Canny detector are sensible to the noise......And the parameters of our method are same to Fig. 6. [8], [7] and Canny detector are sensible to the noise. Moreover, the edges of [8] and [7] are...
+#CAShi-wei Gao[998925]
+#CPEdge Detection with Self-Adaptive MAS Using Multi-distance Gradient[13270592]
+#CC...A nother exploit is the use of artificial ants or other agent community to do auto-organization in order to detect some image primitives; it is used previously in [13] to detect edges via autonomous agents...
+#CAE. Lakehal[55121675]
+#CPA swarm intelligence based approach for image feature extraction[50800024]
+#%*New Prospects in Line Detection by Dynamic Programming[799913]
+#%n117
+#%@Nicolas Merlet[471641],Josiane Zerubia[205573],
+#%!The detection of lines in satellite images has drawn a lot of attention within the last 15 years. Problems of resolution, noise, and image understanding are involved, and one of the best methods developed so far is the F* algorithm of Fischler, which achieves robustness, rightness, and rapidity. Like other methods of dynamic programming, it consists of defining a cost ...
+#%jIEEE Transactions on Pattern Analysis and Machine Intelligence - PAMI[25], vol. 18, no. 4, pp. 426-431
+#%y1996
+#%*Color in computer vision[2104928]
+#%n22
+#%@Q T Luong[53619246],
+#%y1993
+#%*Automatic Finding of Main Roads in Aerial Images by Using Geometric-Stochastic Models and Estimation[800248]
+#%n136
+#%@Meir Barzohar[2715192],David B. Cooper[134899],
+#%!This paper presents an automated approach to finding main roads in aerial images. The approach is to build geometric-probabilistic models for road image generation. We use Gibbs distributions. Then, given an image, roads are found by MAP (maximum a posteriori probability) estimation. The MAP estimation is handled by partitioning an image into windows, realizing the estimation in each window ...
+#%jIEEE Transactions on Pattern Analysis and Machine Intelligence - PAMI[25], vol. 18, no. 7, pp. 707-721
+#%y1996
+#%*Evolution and optimum seeking[1277073]
+#%n1023
+#%@Hans-Paul Schwefel[316151],
+#%y1995
+#%*Direct Extraction of Topographic Features for Gray Scale Character Recognition[799748]
+#%n49
+#%@Seong-whan Lee[934915],Young-joon Kim[52812035],
+#%!Optical character recognition (OCR) traditionally applies to binary-valued imagery although text is always scanned and stored in gray scale. However, binarization of multivalued image may remove important topological information from characters and introduce noise to character background. In order to avoid this problem, it is indispensable to develop a method which can minimize the information loss due to binarization ...
+#%jIEEE Transactions on Pattern Analysis and Machine Intelligence - PAMI[25], vol. 17, no. 7, pp. 724-729
+#%y1995
+#%*Computer and robot vision[1328529]
+#%n1593
+#%@R. M. Haralick[655751],L. G. Shapiro[7577],
+#%y1992
+#%*Adaption in natural and artificial systems[1256375]
+#%n12034
+#%@J. H. Holland[17944096],
+#%y1975
+#%*Studying artificial life with cellular automata[1976832]
+#%n213
+#%@C. G. Langton[10673589],
+#%cInternational Symposium on Physical Design - ISPD[96]
+#%y1986
+#%*Image Motion Estimation From Motion Smear-A New Computational Model[799457]
+#%n31
+#%@Wei-ge Chen[2464594],N. Nandhakumar[1464403],Worthy N. Martin[225808],
+#%!Motion smear is an important visual cue for motion perception by the human vision system (HVS). However, in image analysis research, exploiting motion smear has been largely ignored. Rather, motion smear is usually considered as a degradation of images that needs to be removed. In this paper, the authors establish a computational model that estimates image motion from motion smear ...
+#%jIEEE Transactions on Pattern Analysis and Machine Intelligence - PAMI[25], vol. 18, no. 4, pp. 412-425
+#%y1996
+#%*Toward an Evolvable Model of Development for Autonomous Agent Synthesis[393290]
+#%n100
+#%@Frank Dellaert[1144862],Randall D. Beer[467470],
+#%!We are interested in the synthesis of autonomous agents using evolutionary techniques. Most work in this area utilizes a direct mapping from genotypic space to pheno- typic space. In order to address some of the limitations of this approach, we present a simplified yet biologically defensible model of the developmental process. The design issues that arise when formulating this model ...
+#%y1994
+#%*Modeling Adaptive Autonomous Agents[368415]
+#%n338
+#%@Pattie Maes[1005976],
+#%!One category of researchers in artificial life is concerned with modeling and building so-called adaptive autonomous agents. Autonomous agents are systems that inhabit a dynamic, unpredictable environment in which they try to satisfy a set of time-dependent goals or motivations. Agents are said to be adaptive if they improve their competence at dealing with these goals based on ...
+#%jArtificial Life - ALIFE[246], vol. 1, no. 1-2, pp. 135-162
+#%y1994
+#%*Artificial Life[1874159]
+#%n612
+#%@Chris Langton[10673589],
+#%!Artificial Life is the study of man-made systems that exhibit behaviors characteristic of natural living systems. It complements the traditional biological sciences concerned with the analysis of living organisms by attempting to synthesize life-like behaviors within computers and other artificial media. By extending the empirical foundation upon which biology is based beyond the carbon-chain life that has ...
+#%cWorkshop on the Synthesis and Simulation of Living Systems - ALIFE[1782], pp. 1-48
+#%y1987
+#%*Computational Metabolism: Towards Biological Geometries for Computing[1874128]
+#%n10
+#%@Marek W. Lugowski[51653937],
+#%cWorkshop on the Synthesis and Simulation of Living Systems - ALIFE[1782], pp. 341-368
+#%y1987
+#%*How Genetic Algorithms Really Work: Mutation and Hillclimbing[4309316]
+#%n177
+#%@Heinz Mühlenbein[34644],
+#%cParallel Problem Solving from Nature - PPSN[231], pp. 15-26
+#%y1992
+#%*Evolutionary Automata[12921586]
+#%n5
+#%@Murray Shanahan[1003384],
+#%!The class of Evolutionary Automata is formally defined. An Evolutionary Automaton generates an evolving population of "organisms" within a computational medium. The organisms move randomly around a microworld, eat, reproduce asexually (with mutation), and die of "natural causes". The results of some preliminary experiments conducted with an instance of this class are reported, in which a parameter was varied across ...
+#%*Intelligence-dynamics and representations[1981984]
+#%n23
+#%@L. Steels[1171078],
+#%y1995
+#%*Cellular Automata, Reaction-Diffusion Systems, and the Origin of Life[1874185]
+#%n7
+#%@Pablo Tamayo[499474],Hyman Hartman[50206932],
+#%cWorkshop on the Synthesis and Simulation of Living Systems - ALIFE[1782], pp. 105-124
+#%y1987
+#%*Extracting Salient Curves from Images: An Analysis of the Saliency Network[213323]
+#%n50
+#%@T. D. Alter[2585563],Ronen Basri[1494662],
+#%!The Saliency Network proposed by Shashua and Ullman (1988) is a well-known approach to the problem of extracting salient curves from images while performing gap completion. This paper analyzes the Saliency Network. The Saliency Network is attractive for several reasons. First, the network generally prefers long and smooth curves over short or wiggly ones. While computing saliencies, the network ...
+#%cComputer Vision and Pattern Recognition - CVPR[838], pp. 13-20
+#%y1996
+#%*Evolution and Biocomputation, Computational Models of Evolution[13263453]
+#%n4
+#%@Wolfgang Banzhaf[2246695],Frank H. Eeckman[51580],
+#%cEvolution and Biocomputation[900]
+#%y1995
+#%*An Efficient Implementation of Reid's Multiple Hypothesis Tracking Algorithm and Its Evaluation for the Purpose of Visual Tracking[799447]
+#%n296
+#%@Ingemar J. Cox[393117],Sunita L. Hingorani[78924],
+#%!An efficient implementation of Reid's multiple hypothesis tracking (MHT) algorithm is presented in which the k-best hypotheses are determined in polynomial time using an algorithm due to Murly (1968). The MHT algorithm is then applied to several motion sequences. The MHT capabilities of track initiation, termination, and continuation are demonstrated together with the latter's capability to provide ...
+#%jIEEE Transactions on Pattern Analysis and Machine Intelligence - PAMI[25], vol. 18, no. 2, pp. 138-150
+#%y1996
+#%*Evolutionary computation - toward a new philosophy of machine intelligence[1364139]
+#%n1168
+#%@David B. Fogel[1108988],
+#%y1995
+#%*Genetic Algorithms in Search Optimization and Machine Learning[694534]
+#%n17426
+#%@David E. Goldberg[201783],
+#%y1989
+#%*Genetic programming: on the programming of computers by means of natural selection[1264746]
+#%n4723
+#%@J. R. Koza[538807],
+#%y1992
+#%*Self-reproduction in cellular automata[1352560]
+#%n237
+#%@C. G. Langton[10673589],
+#%cInternational Symposium on Physical Design - ISPD[96]
+#%y1984
+#%*A contour tracing algorithm that preserves common boundaries between regions[27384063]
+#%n13
+#%@Y LIOW[417509],
+#%jCvgip: Image Understanding[14765], vol. 53, no. 3, pp. 313-321
+#%y1991
+#%*Evaluation of Ridge Seeking Operators for Multimodality Medical Image Matching[799835]
+#%n118
+#%@J. B. Antoine Maintz[36210],Petra A. Van Den Elsen[1684467],Max A. Viergever[1925023],
+#%!Ridge-like structures in digital images may be extracted by convolving the images with deriva- tives of Gaussians. The choice of the convolution operator and of the parameters involved defines a specific ridge image. In this paper, various ridge measures related to isophote curvature are con- structed, reviewed, and evaluated with respect to their usability in CT/MRI matching of ...
+#%jIEEE Transactions on Pattern Analysis and Machine Intelligence - PAMI[25], vol. 18, no. 4, pp. 353-365
+#%y1996
+#%*Genetic algorithms + data structures - evolution programs[1300410]
+#%n3196
+#%@Z. Michalewicz[35611],
+#%y1995
+#%*A multiresolution texture segmentation approach with application to diagnostic ultrasound images[49926393]
+#%n4
+#%@R. Muzzolini[51699778],Yee-Hong Yang[1919778],Roger Pierson[12471370],
+#%!A multiresolution texture segmentation approach is presented which addresses characterization, resolution, and time considerations. This approach uses simulated annealing to minimize an energy function based on the resolution of different texture blocks in an image. A rigorous experimental procedure is developed to ensure that accuracy and speed criteria are met. Semireal images, created by sampling a series of diagnostic ultrasound ...
+#%y1991
+#%*Theory of self-reproducing automata[39363506]
+#%n1333
+#%@J Von Neumann[10540074],
+#%y1966
+#$*Self-organized combinatorial optimization[39318422]
+#$n1
+#$@Jiming Liu[2250339],Yu-Wang Chen[3587558],Gen-Ke Yang[3509831],Yong-Zai Lu[55330502],
+#$jExpert Systems With Applications - ESWA[29], vol. 38, no. 8, pp. 10532-10540
+#$y2011
+#$*Swarm cognition on off-road autonomous robots[39335482]
+#$@Pedro Santana[621081],Luís Correia[2108324],
+#$jSwarm Intelligence[40], vol. 5, no. 1, pp. 45-72
+#$y2011
+#$*A Multiagent Evolutionary Algorithm for Combinatorial Optimization Problems[14376537]
+#$n7
+#$@Jing Liu[56882770],Weicai Zhong[3389012],Licheng Jiao[9150777],
+#$jIEEE Transactions on Systems, Man, and Cybernetics - TSMC[8], vol. 40, no. 1, pp. 229-240
+#$y2010
+#$*A novel fast human face searching algorithm based on evolutionary agent[50987295]
+#$@Yanjiang Wang[3413152],Wenjuan Wang[18109350],Yujuan Qi[11703567],Hui Li[47438938],
+#$cInternational Conference on Signal Processing Proceedings - ICSP[4965]
+#$y2010
+#$*A swarm cognition realization of attention, action selection, and spatial memory[57116417]
+#$@Pedro Santana[26846906],Luís Correia[2108324],
+#$jAdaptive Behavior - ADAPT BEHAV[480], vol. 18, no. 5, pp. 428-447
+#$y2010
+
+#index40
+#*an Asynchronous Data-Parallel Language for Irregular Algorithms
+#@Emmanuel Melin[407429],Bruno Raffin[428046],Xavier Rebeuf[327573],Bernard Virot[230198],
+#!Parallelism suffers from a lack of programming lan- guages both simple to handle and able to take advantage of the power of present parallel computers. If parallelism ex- pression is too high level, compilers have to perform com- plex optimizations leading often to poor performances. One the other hand, too low level parallelism transfers difficul - ties toward the programmer. In this paper, we propose a new programming language that integrates both a synchronous data-parallel program- ming model and an asynchronous execution model. The syn- chronous data-parallel programming model allows a safe program designing. The asynchronous execution model yields an efficient execution on present MIMD architectures without any program transformation. Our language re- lies on a logical instruction ordering exploited by specific send/receive communications. It allows to express only the effective data dependences between processors. This abili ty is enforced by a possible send/receive unmatching useful fo r irregular algorithms. A sparse vector computation exempli - fies our language potentialities.
+#jInformation and Computation/information and Control - IANDC[0]
+#y1996
+#falgorithms_and_theory
+#KData Dependence[8989]
+#KData Parallel[9044]
+#KParallel Computer[30010]
+#KParallel Programs[30071]
+#KProgram Design[32901]
+#KProgram Transformation[32913]
+#KProgramming Language[32942]
+#KProgramming Model[32946]
+#%*Designing and building parallel programs[1402744]
+#%n410
+#%@I. Foster[521123],
+#%y1995
+#%*Skjellum using mpi: portable parallel programming with the message-passing interface[1330511]
+#%n330
+#%@W. Gropp[1861619],E. Lusk[235973],
+#%y1994
+#%*Pvm 3 User's Guide And Reference Manual[402856]
+#%n517
+#%@Al Geist[2283664],Adam Beguelin[42196482],Jack Dongarra[1638553],Weicheng Jiang[43074615],Robert Manchek[1614591],Vaidy Sunderam[61383],
+#%!This report is the PVM version 3.3 users" guide and reference manual. Itcontains an overview of PVM, and how version 3 can be obtained, installed andused.PVM stands for Parallel Virtual Machine. It is a software package that allowsa heterogeneous network of parallel and serial computers to appear as a singleconcurrent computational resource. PVM consists of two parts: a ...
+#%y1994
+#%*Quinn: data-parallel programming on mimd computers[1364142]
+#%n27
+#%@P. J. Hatcher[1411965],
+#%y1991
+#%*A Unifying Approach of Data and Task Parallelism Based on Structural Clock Communication Paradigm[337452]
+#%n2
+#%@Emmanuel Melin[407429],Bruno Raffin[428046],Xavier Rebeuf[327573],
+#%!Among parallel programming tools, task parallelism and data parallelism are the most commonprogramming models. Task parallelism enables to reach high performances but requires an importantprogramming effort. In opposite, data parallelism provides programming facilities close to the sequentialmodel at the expense of performances.In this paper, we show that it is possible to propose a language that integrates a task parallel ...
+#%y1997
+#%*A Loosely Synchronized Execution Model for a Simple Data-Parallel Language (Extended Abstract)[383452]
+#%n4
+#%@Yann Le Guyadec[1002147],Emmanuel Melin[407429],Bruno Raffin[428046],Xavier Rebeuf[327573],Bernard Virot[230198],
+#%!Data-parallel languages offer a programming model structured and easy to understand. The challenge consists in taking advantage of the power of present parallel architectures by a compilation process allowing to reduce the number and the complexity of synchronizations. In this paper, we clearly separate the synchronous programming model from the asynchronous execution model by the way of a translation ...
+#%cEuropean Conference on Parallel Processing - Euro-Par[691], pp. 732-741
+#%y1996
+#%*Structural Clocks for a Loosely Synchronized Data-Parallel Language[390016]
+#%n6
+#%@Yann Le Guyadec[1002147],Emmanuel Melin[407429],Bruno Raffin[428046],Xavier Rebeuf[327573],Bernard Virot[230198],
+#%!Nowadays, most of distributed architectures are MIMD (Multiple Instruction streams, Multiple Data streams) par - allel computers or networks of workstations. They are eas- ily scalable, concerning the number of processing elements , the amount of memory or the bandwidth of the underlying communication network. The challenge consists in taking advantage of the power of these architectures. It has been shown that ...
+#%y1996
+#%*The high performance fortran handbook[1322251]
+#%n492
+#%@C. Koelbel[187477],D. Loveman[51384178],R. Schreiber[15818],G. Steele[159279],M. Zosel[499032],
+#%jScientific Programming - SP[428]
+#%y1994
+#%*A bridging model for parallel computation[772042]
+#%n1452
+#%@Leslie G. Valiant[450662],
+#%!The success of the von Neumann model of sequential computation is attributable to the fact that it is an efficient bridge between software and hardware: high-level languages can be efficiently compiled on to this model; yet it can be effeciently implemented in hardware. The author argues that an analogous bridge between software and hardware in required for parallel computation ...
+#%jCommunications of The ACM - CACM[209], vol. 33, no. 8, pp. 103-111
+#%y1990
+#%*An Introduction to HPF[427577]
+#%n19
+#%@Robert S. Schreiber[15818],
+#%!This paper introduces the ideas that underly the data-parallel language High Performance Fortran (HPF). It reviews HPF's key language elements: elemental array parallelism and data mapping pragmas; the relationship between data mapping and implicit communication; the FORALL and INDEPENDENT loop mechanisms for more general data parallelism; and the standard HPF library, which adds to the richness of the ...
+#%cAdvanced Courses - AC[257], pp. 27-44
+#%y1996
+#%*A general but simple technique to handle asynchronous data-parallel control structures[386390]
+#%n4
+#%@Emmanuel Melin[407429],Bruno Raffin[428046],Xavier Rebeuf[327573],Bernard Virot[230198],
+#%!Nowadays, most of distributed architectures are eas- ily scalable MIMD (Multiple Instruction streams, Multiple Data streams) parallel computers or networks of worksta- tions. The challenge consists in taking advantage of the power of these architectures. It has been shown that data- parallel languages offer both a programming model easy to understand and several execution models which are able to exploit ...
+#%cParallel, Distributed and Network-Based Processing[1462], pp. 189-198
+#%y1997
+#%*Boltzmann machines: high-order interactions and synchronous learning[1983261]
+#%n6
+#%@R. Azencott[53059970],
+#%y1992
+#%*Using MPI: Portable Parallel Programming with the Message-Passing Interface[1370099]
+#%n1115
+#%@William Gropp[1861619],Ewing Lusk[235973],Anthony Skjellum[186869],
+#%y1999
+#%*Data-Parallel Programming on MIMD Computers[805782]
+#%n178
+#%@Philip J. Hatcher[1411965],Michael J. Quinn[1724659],Anthony J. Lapadula[429476],Bradley K. Seevers[694768],Ray J. Anderson[47738852],Robert R. Jones[10525025],
+#%!The implementation of two compilers for the data-parallel programming language Dataparallel C is described. One compiler generates code for Intel and nCUBE hypercube multicomputers; the other generates code for Sequent multiprocessors. A suite of Dataparallel C programs has been compiled and executed, and their execution times and speedups on the Intel iPSC/2, the nCUBE 3200 and the Sequent ...
+#%jIEEE Transactions on Parallel and Distributed Systems - TPDS[26], vol. 2, no. 3, pp. 377-383
+#%y1991
+#%*Using MPI - portable parallel programming with the message-parsing interface[39255967]
+#%n659
+#%@William D. Gropp[1861619],Ewing L. Lusk[235973],Anthony Skjellum[186869],
+#%y1994
+
+#index66
+#*On Minimum-Area Hulls
+#@Esther M. Arkin[1207195],Yi-jen Chiang[1503077],Martin Held[174586],S. B Joseph[47411720],Vera Sacristan[1922693],Steven S. Skiena[240735],Tae-cheon Yang[54564604],
+#!We study some minimum-area hull problems that generalize the notion of convex hull tostar-shaped and monotone hulls. Specifically, we consider the minimum-area star-shaped hullproblem: Given an n-vertex simple polygon P , find a minimum-area, star-shaped polygon Pcontaining P . This problem arises in lattice packings of translates of multiple, non-identicalshapes in material layout problems (e.g., in clothing manufacture), and has been recently posedby Daniels and Milenkovic. We...
+#n13
+#jAlgorithmica[34]
+#y1996
+#falgorithms_and_theory
+#KConvex Hull[7970]
+#RMinimizing support structures and trapped area in two-dimensional layered manufacturing[846360]
+#CC...These often occur in layered manufacturing [41, 42, 54], for instance in material layout and cloth manufacturing [3]...
+#CASiegfried Schaible[56513]
+#CPFractional programming: the sum-of-ratios case[3118883]
+#CC...(See Figure 3.) Our approach is similar to that used in [2] for a related problem......To find this partition, we follow [2] and define for each vertex v of 7), its visibility cone, cone(v), as the cone with apex v and maximum angular range in which v can see to infinity...
+#CAJayanth Majhi[1538457]
+#CPOn Some Geometric Optimization Problems in Layered Manufacturing[4323757]
+#%*Packing and Covering the Plane with Translates of a Convex Polygon[735126]
+#%n17
+#%@David M. Mount[986893],Ruth Silverman[289181],
+#%jJournal of Algorithms - JAL[90], vol. 11, no. 4, pp. 564-580
+#%y1990
+#%*Ray Shooting in Polygons Using Geodesic Triangulations[603018]
+#%n96
+#%@Bernard Chazelle[2246972],Herbert Edelsbrunner[999001],Michelangelo Grigni[63323],Leonidas J. Guibas[1267490],John Hershberger[634259],Micha Sharir[508835],Jack Snoeyink[928634],
+#%!Let P be a simple polygon with n vertices. We present a simple decomposition scheme that partitions the interior of P into O(n) so-called geodesic triangles, so that any line segment interior to P crosses at most 2 log n of these triangles. This decomposition can be used to preprocess P in time O(n log n) and ...
+#%cInternational Colloquium on Automata, Languages and Programming - ICALP[9], pp. 661-646
+#%y1991
+#%*Finding Minimum Area k-gons[177970]
+#%n31
+#%@David Eppstein[13868],Mark H. Overmars[158294],Günter Rote[2111782],Gerhard J. Woeginger[342085],
+#%!Given a set P of n points in the plane and a number k, we wantto find a polygonCwith vertices in P of minimum area that satisfiesone of the following properties: (1)Cis a convex k-gon, (2)Cis anempty convex k-gon, or (3)Cis the convex hull of exactly k pointsof P . We give algorithms for solving each ...
+#%jDiscrete & Computational Geometry - DCG[319], vol. 7, no. 1, pp. 45-58
+#%y1992
+#%*Simultaneous Inner and Outer Approximation of Shapes[860196]
+#%n16
+#%@Rudolf Fleischer[53261759],Kurt Mehlhorn[2136714],Giinter Rote[53710704],Emo Welzl[1230281],Chee-keng Yap[1455278],
+#%!For compact Euclidean bodiesP, Q, we define λ(P, Q) to be the smallest ratior/s wherer > 0,s > 0 satisfy $$sQ' \subseteq P \subseteq rQ''$$ . HeresQ denotes a scaling ofQ by the factors, andQ′,Q″ are some translates ofQ. This function λ gives us a new distance function between bodies which, unlike previously studied measures, is invariant ...
+#%jAlgorithmica[234], vol. 8, no. 5&6, pp. 365-389
+#%y1992
+#%*Visibility and Intersection Problems in Plane Geometry[728320]
+#%n171
+#%@Bernard Chazelle[2246972],Leonidas J. Guibas[1267490],
+#%!We develop new data structures for solving various visibility and intersection problems about a simple polygonP onn vertices. Among our results are a simpleO(n logn)-time algorithm for computing the illuminated subpolygon ofP from a luminous side, and anO(logn)-time algorithm for determining which side ofP is first hit by a bullet fired from a point in a ...
+#%jDiscrete & Computational Geometry - DCG[319], vol. 4, no. 1, pp. 551-581
+#%y1989
+#%*Placement and compaction of nonconvex polygons for clothing manufacture[1383344]
+#%n31
+#%@V. Milenkovic[30436],K. Daniels[105158],Z. Li[47725651],
+#%cCanadian Conference on Computational Geometry - CCCG[778]
+#%y1992
+#%*Geometric Knapsack Problems[859976]
+#%n17
+#%@Esther M. Arkin[1207195],Samir Khuller[1175994],Joseph S. B. Mitchell[347420],
+#%!We study a variety of geometric versions of the classical knapsack problem. In particular, we consider the following “fence enclosure” problem: given a setS ofn points in the plane with valuesvi = 0, we wish to enclose a subset of the points with a fence (a simple closed curve) in order to maximize the “value” of the enclosure. The value of ...
+#%jAlgorithmica[234], vol. 10, no. 5, pp. 399-427
+#%y1993
+#%*Computing the Convex Hull of Line Intersections[735800]
+#%n16
+#%@Mikhail J. Atallah[2302700],
+#%jJournal of Algorithms - JAL[90], vol. 7, no. 2, pp. 285-288
+#%y1986
+#%*Compaction Algorithms for Non-Convex Polygons and Their Applications[242709]
+#%n29
+#%@Zhenyu Li[1891476],
+#%!Given a two-dimensional, non-overlapping layout of convex and non-convex polygons,compaction refers to a simultaneous motion of the polygons that generates a more denselypacked layout. In industrial two-dimensional packing applications, compaction can improvethe material utilization of already tightly packed layouts. Efficient algorithms for compactinga layout of non-convex polygons are not previously known.This dissertation offers ...
+#%y1994
+#%*Better Lower Bounds on Detecting Affine and Spherical Degeneracies[515129]
+#%n18
+#%@Jeff Erickson[2336936],Raimund Seidel[965763],
+#%!We show that in the worst case, (n,) sidedness queries are required to determine whether a set of n points in IR, is a nely degenerate, i. e., whether it contains d + 1 points on a common hyperplane. This matches known upper bounds. We give a straightforward adversary argument, based on the explicit construction of a point set containing (...
+#%cIEEE Symposium on Foundations of Computer Science - FOCS[706], pp. 528-536
+#%y1993
+#%*Better Lower Bounds on Detecting Affine and Spherical Degeneracies[281367]
+#%n37
+#%@Jeff Erickson[2336936],Raimund Seidel[965763],
+#%!We show that in the worstcase,\Omega\Gammand) sidedness queries are required todetermine whether a set of n points in IRdis affinely degenerate, i.e., whetherit contains d + 1 points on a common hyperplane. This matches known upperbounds. We give a straightforward adversary argument, based on the explicitconstruction of a point setcontaining\Omega\Gammand) &quot;collapsible&quot; ...
+#%jDiscrete & Computational Geometry - DCG[319], vol. 13, no. 1, pp. 41-57
+#%y1995
+#$*Peeling Meshed Potatoes[15213295]
+#$@Boris Aronov[89343],Marc J. van Kreveld[805269],Maarten Löffler[3496953],Rodrigo I. Silveira[3613548],
+#$jAlgorithmica[34], vol. 60, no. 2, pp. 349-367
+#$y2011
+#$*Geometric Optimization and Sums of Algebraic Functions[6476542]
+#$n5
+#$@Antoine Vigneron[1997772],
+#$cACM-SIAM Symposium on Discrete Algorithms - SODA[378], pp. 906-917
+#$y2010
+#$*High-Dimensional Visual Analytics: Interactive Exploration Guided by Pairwise Views of Point Distributions[2518106]
+#$n18
+#$@Leland Wilkinson[2346531],Anushka Anand[574801],Robert L. Grossman[11556409],
+#$jIEEE Transactions on Visualization and Computer Graphics - TVCG[9], vol. 12, no. 6, pp. 1363-1372
+#$y2006
+#$*Graph-Theoretic Scagnostics[1859790]
+#$n31
+#$@Leland Wilkinson[2346531],Anushka Anand[574801],Robert L. Grossman[11556409],
+#$cIEEE Symposium on Information Visualization - INFOVIS[73]
+#$y2005
+#$*Efficient Algorithms and Implementations for Optimizing the Sum of Linear Fractional Functions, with Applications[1701006]
+#$n9
+#$@Danny Z. Chen[98382],Ovidiu Daescu[643071],Yang Dai[19227266],Naoki Katoh[2288252],Xiaodong Wu[1388616],Jinhui Xu[191240],
+#$jJournal of Combinatorial Optimization - JCO[7], vol. 9, no. 1, pp. 69-90
+#$y2005
+
+#index98
+#*Molecular scale heat engines and scalable quantum computation
+#@Leonard J. Schulman[283475],Umesh V. Vaziranit[40418196],
+#!We describe a quantum mechanical heat engine. Like itsclassical counterpart introduced by Carnot, this engine carriesout a reversible process in which an input of energy tothe system results in a separation of cold and hot regions.The method begins with a reinterpretation in thermodynamicterms of a simple step introduced by von Neumannto extract fair coin flips from sequences of biased coin flips.Some of the experimental set-ups proposed for implementationof quantum computers, begin...
+#n30
+#cACM Symposium on Theory of Computing - STOC[392], pp. 322-329
+#y1999
+#D10.1145/301250.301332
+#falgorithms_and_theory
+#KQuantum Computer[33763]
+#KQuantum Mechanics[33836]
+#RError correcting codes in quantum theory[1399934]
+#RNMR implementation of a building block for scalable quantum computation[97021]
+#REnhancement of nuclear magnetic resonance signals by polarization transfer[3036853]
+#RAlgorithmic cooling and scalable NMR quantum computers[2314150]
+#RVarious techniques used in connection with random digits[1342375]
+#CC...Algorithmic cooling (Boykin et al. 2002) has been proposed as a novel method for resetting bits in ensemble computing model, generalizing an earlier reversible initialization technique (Schulman and Vazirani 1999), by adding the concept of heat-bath cooling; see Boykin et al. (2002), Fernandez et al. (2004), Schulman et al. (2007) and Elias et al. (2007)...
+#CAP. Oscar Boykin[353598]
+#CPAlgorithms on ensemble quantum computers[12607817]
+#CC...An explicit example is the so called \algorithmic cooling" [14, 15, 16] which could be realized even on a molecular level...
+#CAHans J. Briegel[95220]
+#CPEntanglement and intra-molecular cooling in biological systems? - A qu...[12721782]
+#CC...One method for initializing to this state is the Schulman-Vazirani heat engine [5]...
+#CADavid J. Rosenbaum[3634279]
+#CPSuperposed Quantum State Initialization Using Disjoint Prime Implicant...[4291953]
+#CC...Such “cooling” (also known as “biasing” or “polarizing”) is required both for initiation of the computation [2] and in order to supply ancillas for fault tolerance as the computation proceeds......Algorithmic cooling. It is in principle possible, however, to reach even lower temperatures, by application of certain logic gates among the qubits [22]......In the former [22] an initial phase of physical cooling is performed which reduces the......cooled states [22] (and see [23, 7] for experimental demonstrations of key steps); for information-theoretic reasons this fraction is best possible, but at the current value of ε it is too small for effective implementation of a quantum computer......The idea was later used as part of the design for algorithmic heat engines in [22]......A simpler two-bit process, also pioneered by von Neumann [26] (for the quite different purpose of extracting fair from biased coin flips), was used for cooling in [22] and then in [5]......(For related recent work see [20].) However, it was demonstrated in [2] that there is no way of directly simulating general quantum computers on highly mixed devices such as this...
+#CALeonard J. Schulman[283475]
+#CPPhysical Limits of Heat-Bath Algorithmic Cooling[2514148]
+#CC...In [SV98], four primitive computational operations are proposed as being supported by NMR quantum computers......To implement the two operations, [SV98] suggested to use a repeating polymer like the ABC-chains used for global control schemes (e.g......It is worth revisiting the idea put forth in [SV98], to use an ABC-chain...
+#CAPhillip Kaye[5806217]
+#CPCooling Algorithms Based on the 3-bit Majority[12540164]
+#%*Rapid Solution of Problems by Quantum Computation[1375813]
+#%n483
+#%@David Deutsch[7163487],Richard Jozsa[602195],
+#%!A class of problems is described which can be solved more efficiently by quantum computation than by any classical or stochastic method. The quantum computation solves the problem with certainty in exponentially less time than any classical deterministic computation.
+#%jProceedings of The Royal Society A: Mathematical, Physical and Engineering Sciences[16858], vol. 439, no. 1907, pp. 553-558
+#%y1992
+#%*The Feynman Lectures on Physics[1384186]
+#%n1569
+#%@Richard P. Feynman[2689349],Robert B. Leighton[12608624],Matthew Sands[12608625],S. B. Treiman[13245034],
+#%jPhysics Today - PHYS TODAY[8578], vol. 17, no. 8
+#%y1964
+#%*Experimental realization of a quantum algorithm[1255379]
+#%n100
+#%@I. L. Chuang[2019040],L. M. K. Vandersypen[1968986],X. Zhou[47547147],D. W. Leung[965289],S. Lloyd[446613],
+#%jNature[912]
+#%y1998
+#%*Experimental Implementation of Fast Quantum Searching[2004855]
+#%n119
+#%@Isaac L. Chuang[2019040],Neil Gershenfeld[1366511],Mark Kubinec[44915895],
+#%!Using nuclear magnetic resonance techniques with a solution of chloroform molecules we implement Grover's search algorithm for a system with four states. By performing a tomographic reconstruction of the density matrix during the computation good agreement is seen between theory and experiment. This provides the first complete experimental demonstration of loading an initial state into a quantum computer, performing ...
+#%y1998
+#%*Ensemble Quantum Computing by Nuclear Magnetic Resonance Spectroscopy[266153]
+#%n38
+#%@David G. Cory[462190],Amr F. Fahmy[214684],Timothy F. Havel[1686335],
+#%!A quantum computer is a machine which can operate in parallel on all its possible inputs at once, and can be programmed much like a conventional digital computer. It is based on the fact that the number of degrees of freedom in a collection of coupled two-state quantum systems grows exponentially with the number of systems. A major problem ...
+#%jProceedings of The National Academy of Sciences - PNAS[919]
+#%y1997
+#%*Schumacher's quantum data compression as a quantum computation[280614]
+#%n22
+#%@Richard Cleve[400489],David P. Divincenzo[414708],
+#%!An explicit algorithm for performing Schumacher's noiseless compression of quantum bits is given. This algorithm is based on a combinatorial expression for a particular bijection among binary strings. The algorithm, which adheres to the rules of reversible programming, is expressed in a high-level pseudocode language. It is implemented using O(n3) two- and three-bit primitive reversible operations, ...
+#%jPhysical Review A - PHYS REV A[8565], vol. 54, no. 4, pp. 2636-2650
+#%y1996
+#%*Various techniques used in connection with random digits[1342375]
+#%n206
+#%@Von Neumann[53640806],
+#%y1963
+#%*Quantum Complexity Theory[296361]
+#%n636
+#%@Ethan Bernstein[2064888],Umesh V. Vazirani[426812],
+#%!In this paper we study quantum computation from a complexity theoretic viewpoint. Our rst result is the existence of an ecien t universal quantum Turing machine in Deutsch's model of a quantum Turing machine (QTM) (Proc. Roy. Soc. London Ser. A, 400 (1985), pp. 97{117). This construction is substantially more complicated than the corresponding construction for classical Turing ...
+#%jSiam Journal on Computing - SIAMCOMP[147], vol. 26, no. 5, pp. 1411-1473
+#%y1997
+#%*Elements of information theory[1279324]
+#%n8710
+#%@Thomas M. Cover[226555],Joy A. Thomas[1375307],
+#%y1991
+#%*On the Power of Quantum Computation[812338]
+#%n457
+#%@Daniel R. Simon[1319046],
+#%jSiam Journal on Computing - SIAMCOMP[147], vol. 26, no. 5, pp. 1474-1483
+#%y1997
+#%*The Efficient Construction of an Unbiased Random Sequence[1333822]
+#%n71
+#%@Peter Elias[10218913],
+#%!We consider procedures for converting input sequences of symbols generated by a stationary random process into sequences of independent, equiprobable output symbols, measuring the efficiency of such a procedure when the input sequence is finite by the expected value of the ratio of output symbols to input symbols. For a large class of processes and a large class of procedures ...
+#%jThe Annals of Mathematical Statistics[18459], vol. 43, no. 1972, pp. 865-870
+#%y1972
+#%*Algorithms for Quantum Computation: Discrete Logarithms and Factoring[388577]
+#%n1043
+#%@Peter W. Shor[96076],
+#%!A computer is generally considered to be a universalcomputational device; i.e., it is believed able to simulateany physical computational device with a increase in computationtime of at most a polynomial factor. It is notclear whether this is still true when quantum mechanics istaken into consideration. Several researchers, starting withDavid Deutsch, have developed models for quantum mechanicalcomputers and have investigated ...
+#%cIEEE Symposium on Foundations of Computer Science - FOCS[706], pp. 124-134
+#%y1994
+#%*Experimental Quantum Error Correction[3071188]
+#%n59
+#%@Raymond Laflamme[692990],M. D. Price[55192937],W. Mass[41798981],W. H. Havel[41898859],T. F. Somaroo[41888288],S. S. Somaroo[142680],
+#%!Quantum error correction is required to compensate for the fragility of the state of a quantum computer. We report the first experimental implementations of quantum error correction and confirm the expected state stabilization. In NMR computing, however, a net improvement in the signal-to-noise would require very high polarization. The experiment implemented the 3-bit code for phase errors ...
+#%jPhysical Review Letters - PHYS REV LETT[8570], vol. 81, no. 10, pp. 2152-2155
+#%y1998
+#%*Quantum coding[19143389]
+#%n245
+#%@Benjamin Schumacher[842720],
+#%!A theorem is proven for quantum information theory that is analogous to the noiseless coding theorem of classical information theory. In the quantum result, the von Neumann entropy S of the density operator describing an ensemble of pure quantum signal states is equal to the number of spin-1/2 systems (``quantum bits'' or ``qubits'') necessary to represent the signal ...
+#%jPhysical Review A - PHYS REV A[8565], vol. 51, no. 4, pp. 2738-2747
+#%y1995
+#$*Algorithms on ensemble quantum computers[12607817]
+#$n3
+#$@P. Oscar Boykin[353598],Tal Mor[1084739],Vwani P. Roychowdhury[2122488],Farrokh Vatan[212493],
+#$jNatural Computing - NC[78], vol. 9, no. 2, pp. 329-345
+#$y2010
+#$*Quantum Complexity: restrictions on algorithms and architectures[13328024]
+#$n1
+#$@Daniel James Shepherd[10525272],
+#$jComputing Research Repository - CORR[99], vol. abs/1005.1
+#$y2010
+#$*Quantum Computing with NMR[27631765]
+#$n1
+#$@Jonathan A. Jones[50274100],
+#$y2010
+#$*Entanglement and intra-molecular cooling in biological systems? - A quantum thermodynamic perspective[12721782]
+#$n6
+#$@Hans J. Briegel[95220],Sandu Popescu[1354591],
+#$y2008
+#$*Studies on the role of entanglement in mixed-state quantum computation[12419154]
+#$n5
+#$@Animesh Datta[13154501],
+#$y2008
+
+#index185
+#*Reconstructing Subsets of Reals
+#@A. J. Radcliffe[834610],Alex D. Scott[162617],
+#!We consider the problem of reconstructing a set of real numbers up to translationfrom the multiset of its subsets of fixed size, given up to translation.This is impossible in general: for instance almost all subsets of Zcontaininfinitely many translates of every finite subset of Z. We therefore restrictour attention to subsets of R which are locally finite; those which containonly finitely many translates of any given finite set of size at least 2.We prove that every locally finite...
+#n8
+#jThe Electronic Journal of Combinatorics - Electr. J. Comb.[25], vol. 6
+#y1999
+#falgorithms_and_theory
+#RReconstructing Subsets of Zn[1736711]
+#RA family of nonreconstructible hypergraphs[2152613]
+#RSquare-celled animal reconstruction problems[844197]
+#CC...Reconstruction problems have been considered for a variety of combinatorial objects, including directed graphs [27,28], hypergraphs [12], infinite graphs [20], codes [14], sets of real numbers [24], sequences [26, 13], and combinatorial geometries [4,5]......In [22] Pebody proved that rN(T) = 6, and it is straightforward to check (see, e.g., [21] or [24]) that r(T ֌ R2) = 3. The action of R/T on T-isomorphism classes of multisets in R2 is locally finite since a multiset K in the...
+#CAA. J. Radcliffe[834610]
+#CPReconstructing under Group Actions[2502209]
+#CC...Radclie and Scott [RS2] study the problem for infinite subsets of R which are subject to some sort of “local finiteness” and prove reconstructibility from the 3-deck...
+#CATamas Keleti[13431602]
+#CPOn the determination of sets by their triple correlation in finite cyc...[3502426]
+#CC...In that direction, Radcliffe and Scott investigated in [RS1, RS2] the problem of reconstructing subsets of R, Zn, Qn or Z/nZ from the......Radcliffe and Scott in [RS2] further prove that the answer to Problem 1 is positive if the group is one of R, Zn, Qn. Moreover they ask for measure-theoretic counterparts to their results in R. This is the main question that we will address here...
+#CAPhilippe Jaming[321149]
+#CPReconstruction of functions from their triple correlations[19309]
+#CC...Several recent papers [14, 19, 20, 10] deal with reconstruction problems closely related to semiregular groups......Several papers ([19, 20, 14, 10, 6]) consider the reconstruction of conflgurations, sequences or of sets of group elements and often one can identify these as group reconstruction problems...
+#CAPhilip Maynard[861568]
+#CPOn the reconstruction index of permutation groups: semiregular groups[46537862]
+#CC...Similar reconstruction problems for flnite or inflnite sets of points under the action of subgroups of the group of all isometries have been considered in [5], [9], [10] and [11] - [16]......The following example which is essentially due to Radclifie and Scott [10] shows that Theorem 1 is best-possible in the sense that the 2-deck does not allow to reconstruct every set of points up to isometry...
+#CADieter Rautenbach[1634717]
+#CPReconstruction up to isometries[1690932]
+#%*On a reconstruction problem for sequences[4131406]
+#%n3
+#%@I. Krasikov[48906],Y. Roddity[50694325],
+#%y1977
+#%*Combinatorial reconstruction problems[2152467]
+#%n20
+#%@Noga Alon[103630],Yair Caro[110696],Ilia Krasikov[48906],Yehuda Roditty[1896421],
+#%jJournal of Combinatorial Theory - JCT[98], vol. 47, no. 2, pp. 153-161
+#%y1989
+#%*Stories from the age of reconstruction[4134178]
+#%n11
+#%@P. J. Cameron[722044],
+#%y1996
+#%*A graph reconstructor''''s manual[4123278]
+#%n39
+#%@J. A. Bondy[2558140],
+#%y1991
+#%*The k-orbit reconstruction and the orbit algebra[4135158]
+#%n15
+#%@V. B. Mnukhin[3262576],
+#%!Let (G, W) be a permutation group on a finite set W = {w1,..., wn}. We consider the natural action of G on the set of all subsets of W. Let h0, h1,..., hN be the orbits of this action. For each i, 1 = i = N, there exists k, 1 = k = n, such that hi is a set of k-element ...
+#%jActa Applicandae Mathematicae - ACTA APPL MATH[7032], vol. 29, no. 1, pp. 83-117
+#%y1992
+#%*Some open problems on permutation groups[3769288]
+#%n13
+#%@P. J. Cameron[722044],
+#%y1992
+#$*Reconstructing under Group Actions[2502209]
+#$n1
+#$@A. J. Radcliffe[834610],Alex D. Scott[162617],
+#$jGraphs and Combinatorics[44], vol. 22, no. 3, pp. 399-419
+#$y2006
+#$*On the determination of sets by their triple correlation in finite cyclic groups[3502426]
+#$@Tamas Keleti[13431602],Mihail N. Kolountzakis[1600837],
+#$y2006
+#$*Reconstruction of functions from their triple correlations[19309]
+#$n5
+#$@Philippe Jaming[321149],Mihail N. Kolountzakis[1600837],
+#$y2002
+#$*On the reconstruction index of permutation groups: semiregular groups[46537862]
+#$n3
+#$@Philip Maynard[861568],Johannes Siemons[24712],
+#$jAequationes Mathematicae[3982], vol. 64, no. 3, pp. 218-231
+#$y2002
+#$*Reconstructing Infinite Sets of Integers[866930]
+#$n1
+#$@Dieter Rautenbach[1634717],Eberhard Triesch[82400],
+#$jJournal of Combinatorial Theory - JCT[8], vol. 99, no. 2, pp. 297-306
+#$y2002
+
+#index200
+#*Semantic Unification for Convergent Systems
+#@Subrata Mitra[46393707],
+#n9
+#y1994
+#falgorithms_and_theory
+#RLazy uni cation algorithms for canonical rewrite systems[4129756]
+#CC...Now, note that the rewrite system CCF ∪BCC is decreasing (its rules l → r are oriented by the ordering � that cointains the proper subterm ordering), and hence unification modulo CCF ∪ BCC is decidable [10]...
+#CAGuillem Godoy[690357]
+#CPDeciding Fundamental Properties of Right(Ground or Variable) Rewrite S...[2166046]
+#CC...Now, note that the right-hand sides of the rules in CCF ∪ BCC are all constants, and hence unification modulo CCF ∪ BCC is decidable [14, 12]...
+#CAGuillem Godoy[690357]
+#CPCharacterizing Confluence by Rewrite Closure and Right Ground Term Rew...[2178578]
+#CC...The above rules are a subset of the transformation rules used in [DS87, MMR89, Mit94] for semantic unification...
+#CABernd Bütow[3389934]
+#CPSemantic Matching for Left-Linear Convergent Rewrite Systems[792078]
+#CC...And one cannot add addition, without turning + into a dened function, at which point (14) would no longer be constructing...
+#CANachum Dershowitz[95287]
+#CPJeopardy[6595052]
+#%*A Combinatory Logic Approach to Higher-Order E-Unification[759142]
+#%n13
+#%@Daniel J. Dougherty[53391985],Patricia Johann[53291936],
+#%!Let E be a first-order equational theory. A translation of higher-order E-unification problems into a combinatory logic framework is presented and justified. The case in which E admits presentation as a convergent term rewriting system is treated in detail: in this situation, a modification of ordinary narrowing is shown to be a complete method for enumerating higher-...
+#%jTheoretical Computer Science - TCS[269], vol. 139, no. 1&2, pp. 207-242
+#%y1995
+#%*Introduction to Automata Theory, Languages and Computation[694544]
+#%n5771
+#%@John E. Hopcroft[1563082],Jeffrey D. Ullman[2037349],
+#%y1979
+#%*Incremental Construction of Unification Algorithms in Equational Theories[602401]
+#%n41
+#%@Jean-pierre Jouannaud[175205],Claude Kirchner[747281],Hélène Kirchner[738162],
+#%!Without Abstract
+#%cInternational Colloquium on Automata, Languages and Programming - ICALP[9], pp. 361-373
+#%y1983
+#%*Solving Goals in Equational Languages[506400]
+#%n20
+#%@Nachum Dershowitz[95287],G. Sivakumar[227659],
+#%!Solving equations in equational Horn-clause theories is a programming paradigm that combines logic programming and functional programming in a clean manner. Languages like Eqlog, Slog and Rite, express programs as conditional rewrite rules and goals as equations to be solved. Procedures for completion of conditional equational theories, in a manner akin to that of Knuth and Bendix for unconditional ...
+#%cConditional Term Rewriting Systems - CTRS[609], pp. 45-55
+#%y1987
+#%*Programming in Prolog[695949]
+#%n1005
+#%@W. F. Clocksin[2329550],Chris Mellish[1473852],
+#%y1981
+#%*Proof methods for equational theories[1297562]
+#%n37
+#%@L. Bachmair[2779],
+#%y1987
+#%*Canonical Conditional Rewrite Systems[497189]
+#%n43
+#%@Nachum Dershowitz[95287],Mitsuhiro Okada[11812806],G. Sivakumar I[42199910],
+#%!Conditional equations have been studied for their use in the specification of abstract data types and as a computational paradigm that combines logic and function programming in a clean way. In this paper we examine different formulations of conditional equations as rewrite systems, compare their expressive power and give sufficient conditions for rewrite systems to have the "confluence" property. We ...
+#%cConference on Automated Deduction - CADE[548], pp. 538-549
+#%y1988
+#%*Confluence of Conditional Rewrite Systems[506432]
+#%n29
+#%@Nachum Dershowitz I[53696928],Mitsuhiro Okada[11812806],G. Sivakumar[227659],
+#%!Conditional rewriting has been studied both from the point of view of algebraic data type specifications and as a computational paradigm combining logic and functional programming. An important issue, in either case, is determining whether a rewrite system has the Church-Rosser, or confluence, property. In this paper, we settle negatively the question whether joinability of critical pairs is, in ...
+#%cConditional Term Rewriting Systems - CTRS[609], pp. 31-44
+#%y1987
+#%*Unification of commutative terms[645052]
+#%n9
+#%@Jörg H. Siekmann[380199],
+#%!Without Abstract
+#%cSymbolic and Algebraic Computation - EUROSAM[955]
+#%y1979
+#%*Higher-Order Unification via Combinators[272873]
+#%n16
+#%@Daniel J. Dougherty[53391985],
+#%!We present an algorithm for unification in the simply typed lambda calculus whichenumerates complete sets of unifiers using a finitely branching search space. In fact,the types of terms may contain type-variables, so that a solution may involve typesubstitutionas well as term-substitution. the problem is first translated into theproblem of unification with respect to extensional equality in combinatory ...
+#%jTheoretical Computer Science - TCS[269], vol. 114, no. 2, pp. 273-298
+#%y1993
+#%*Computing Unification Algorithms[556734]
+#%n39
+#%@Claude Kirchner[747281],
+#%cLogic in Computer Science - LICS[138], pp. 206-216
+#%y1986
+#%*An Improved General E-Unification Method[496964]
+#%n16
+#%@Daniel J. Dougherty[53391985],Patricia Johann[53291936],
+#%!A method for E-unification in arbitrary equational theories E is presented which directly generalizes the standard technique of Narrowing. The method is defined in terms of transformations on systems, building upon and refining results of Gallier and Snyder.
+#%cConference on Automated Deduction - CADE[548], pp. 261-275
+#%y1990
+#%*Building in equational theories[1367409]
+#%n196
+#%@G. Plotkin[1477825],
+#%cMachine Intelligence[1349]
+#%y1972
+#%*Decidable Matching for Convergent Systems[318538]
+#%n11
+#%@Nachum Dershowitz[95287],
+#%!We describe decision procedures for certain classes of semantic matching problems, wherethe equational theory with respect to which the semantic matching is performed has a convergentrewrite system. We give counterexamples to show that semantic matching becomesundecidable (as it generally is) when the conditions we give are weakened.1 IntroductionEquation solving is the process of finding a substitution which makes two ...
+#%y1992
+#%*A Machine-Oriented Logic Based on the Resolution Principle[787763]
+#%n1766
+#%@John Alan Robinson[53415458],
+#%jJournal of The ACM - JACM[89], vol. 12, no. 1, pp. 23-41
+#%y1965
+#%*The Relation between Logic and Functional Languages: A Survey[745871]
+#%n62
+#%@Marco Bellia[547155],Giorgio Levi[686074],
+#%jThe Journal of Logic and Algebraic Programming - JLP[123], vol. 3, no. 3, pp. 217-236
+#%y1986
+#%*Proving termination with Multiset Orderings[602362]
+#%n283
+#%@Nachum Dershowitz I[53696928],Zohar Manna[74212],
+#%!A common tool for proving the termination of programs is the well-founded set, a set ordered in such a way as to admit no infinite descending sequences. The basic approach is to find a termination function that maps the values of the program variables into some well-founded set, such that the value of the termination function is continually ...
+#%jCommunications of The ACM - CACM[209], vol. 22, no. 8, pp. 188-202
+#%y1979
+#%*A Rationale for Conditional Equational Programming[759027]
+#%n65
+#%@Nachum Dershowitz[95287],Mitsuhiro Okada[11812806],
+#%jTheoretical Computer Science - TCS[269], vol. 75, no. 1&2, pp. 111-138
+#%y1990
+#%*Termination of Rewriting Systems by Polynomial Interpretations and Its Implementation[756027]
+#%n90
+#%@Ahlem Ben Cherifa[22051182],Pierre Lescanne[1839419],
+#%!This paper describes the actual implementation in the rewrite rule laboratory REVE of an elementary procedure that checks inequalities between polynomials and is used for proving termination of rewriting systems, especially in the more difficult case of associative-commutative rewriting systems, for which a complete characterization is given. 1. The origin of the problem Termination is central in programming and ...
+#%jScience of Computer Programming - SCP[199], vol. 9, no. 2, pp. 137-159
+#%y1987
+#%*On proving term rewriting systems are noetherian[1307327]
+#%n118
+#%@D. Lankford[34472171],
+#%y1979
+#%*THE PROBLEM OF SOLVABILITY OF EQUATIONS IN A FREE SEMIGROUP[1359647]
+#%n242
+#%@G. S Makanin[53942729],
+#%!In this paper we construct an algorithm recognizing the solvability of arbitrary equations in a free semigroup.Bibliography: 4 titles.
+#%jMathematics of The Ussr-sbornik[15670], vol. 32, no. 2, pp. 129-198
+#%y1977
+#%*ML for the working programmer[1295949]
+#%n319
+#%@Lawrence C. Paulson[1363468],
+#%y1991
+#%*Some Termination Criteria for Narrowing and E-Narrowing[496973]
+#%n19
+#%@Jim Christian[52630090],
+#%!Given a set of first-order equations T, we describe some restrictions on T which ensure that there are no infinite narrowing derivations using T. The criteria are also applicable when T is used to perform E-narrowing modulo a set of simple linear permutative equations E.
+#%cConference on Automated Deduction - CADE[548], pp. 582-588
+#%y1992
+#%*An Optimal Narrowing Strategy for General Canonical Systems[506402]
+#%n18
+#%@Alexander Bockmayr[52757718],Stefan Krischer[3334009],Andreas Werner[55515861],
+#%!Narrowing is a universal unification procedure for equational theories defined by a canonical term rewriting system. In its original form it is extremely inefficient. Therefore, many optimizations have been proposed during the last years. In this paper, we introduce a new narrowing strategy, called LSE narrowing. LSE narrowing is complete for arbitrary canonical systems. It is optimal in the sense ...
+#%cConditional Term Rewriting Systems - CTRS[609], pp. 483-497
+#%y1992
+#%*A Note on a Canonical Theory with Undecidable Unification and Matching Problem[735962]
+#%n13
+#%@Alexander Bockmayr[52757718],
+#%!A natural example of a canonical theory with undecidable unification and matching problem is presented.
+#%jJournal of Automated Reasoning - JAR[95], vol. 3, no. 4, pp. 379-381
+#%y1987
+#%*Rewrite Systems[320969]
+#%n1286
+#%@Nachum Dershowitz[95287],Jean-pierre Jouannaud[175205],
+#%!Completion Completion has recently been put in a more abstract framework [ Bachmair-et al, 1986 ] , an approach we adopt here. As in traditional proof theory (cf. [ Takeuti, 1987 ] ), proofs are reduced, in some well-founded sense, by replacing locally maximal subproofs with smaller ones, until a normal-form proof is obtained. In completion, the axioms used are in a constant ...
+#%y1990
+#%*Complete Sets of Transformations for General E-Unification[757144]
+#%n75
+#%@Jean H. Gallier[340122],Wayne Snyder[676118],
+#%jTheoretical Computer Science - TCS[269], vol. 67, no. 2&3, pp. 203-260
+#%y1989
+#%*Paramodulation and theorem proving in first order theories with quality[1371750]
+#%n170
+#%@G. A. Robinson[42205573],L. Wos[108991],
+#%cMachine Intelligence[1349]
+#%y1969
+#%*On Unification of Terms with Integer Exponents[354220]
+#%n33
+#%@Hubert Comon[3313587],
+#%!this paper, we got informed of the work of G. Salzer, which has beendone independently from ours [6]. He uses a quite different formalism, but he shows essentiallythe same results as ours, except that his formalism is slightly more powerful since he can expressfor example the set of all complete finite binary trees with internal nodes labeled with f . Indeed,...
+#%jTheory of Computing Systems / Mathematical Systems Theory - MST[170], vol. 28, no. 1, pp. 67-88
+#%y1995
+#%*Extension of the Associative Path Ordering to a Chain of Associative Commutative Symbols[482733]
+#%n28
+#%@Catherine Delor[55302710],Laurence Puel[1870172],
+#%!In this paper, we give a generalization of the associative path ordering. This ordering has been introduced by Bachmair and Plaisted [5] and is a restricted variant of the recursive path ordering which can be used for proving the termination of associative-commutative term rewriting systems. This ordering requires strong conditions on the precedence on the alphabet. In this article, ...
+#%cRewriting Techniques and Applications - RTA[246], pp. 389-404
+#%y1993
+#%*Functional programing and the logical variable[566726]
+#%n18
+#%@Gary Lindstrom[1741396],
+#%!Logic programming offers a variety of computational effects which go beyond those customarily found in functional programming languages. Among these effects is the notion of the “logical variable.” i.e. a value determined by the intersection of constraints, rather than by direct binding. We argue that this concept is “separable” from logic programming, and can sensibly be incorporated into ...
+#%cACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages - POPL[225], pp. 266-280
+#%y1985
+#%*A New Method for Proving Termination of AC-Rewrite Systems[655236]
+#%n21
+#%@Deepak Kapur[652279],G. Sivakumar[227659],Hantao Zhang[1414970],
+#%!A new method, which extends the lexicographic recursive path ordering of Dershowitz and Kamin and Levy, to prove termination of associative-commutative (AC) rewrite systems is proposed. Instead of comparing the arguments of an AC-operator using the multiset extension, we partition them into disjoint subsets and each subset is used only once for comparison. To preserve transitivity, we introduce ...
+#%cFoundations of Software Technology and Theoretical Computer Science - FSTTCS[719], pp. 133-148
+#%y1990
+#%*Canonical Forms and Unification[496716]
+#%n265
+#%@Jean-marie Hullot[2591379],
+#%!Fay has described in [2,3] a complete T-unification for equational theories T which possess a complete set of reductions as defined by Knuth & Bendix [12]. This algorithm relies essentially on using the narrowing process defined by Lankford [13]. In this paper, we first study the relations between narrowing and unification and we give a new version of ...
+#%cConference on Automated Deduction - CADE[548], pp. 318-334
+#%y1980
+#%*Logic Programming by Completion[529889]
+#%n12
+#%@Nachum Dershowitz[95287],N. Alan Josephson[3214529],
+#%cInternational Conference on Logic Programming/Joint International Conference and Symposium on Logic Programming - ICLP(JICSLP)[31], pp. 313-320
+#%y1984
+#%*Implementation of Narrowing: The Prolog-Based Approach[404170]
+#%n19
+#%@P. h. Cheong[700074],L. Fribourg[1296349],
+#%!We present the problem of integrating functional languages and logic languages.We explain why the narrowing-based techniques have so far prevailedas operational mechanisms for the functional logic interpreters. We then discussvarious strategies of narrowing. Finally we explain how to simulate thesestrategies of narrowing using the leftmost SLD-resolution rule of Prolog, andcompare some experimental results with those obtained with ...
+#%y1993
+#$*Deciding Fundamental Properties of Right(Ground or Variable) Rewrite Systems by Rewrite Closure[2166046]
+#$n9
+#$@Guillem Godoy[690357],Ashish Tiwari[504823],
+#$cConference on Automated Deduction - CADE[548], pp. 91-106
